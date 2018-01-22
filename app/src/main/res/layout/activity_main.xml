@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity="end|center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="16dp">
+        <TextView
+            android:id="@+id/calculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            tools:text="2+2" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="26sp"
+            tools:text="4" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.25"
+        android:background="#555"
+        android:weightSum="4">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4">
+            <TextView
+                android:id="@+id/num7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/dot"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="."
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/num8"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num0"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/num9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/equal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="="
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#888"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="DEL"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/division"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="/"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/multiply"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="*"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/minus"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/plus"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:background="#1be9b5" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.26"
+        android:background="#555"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#888" />
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:background="#1be9b5" />
+    </LinearLayout>
+</LinearLayout>
